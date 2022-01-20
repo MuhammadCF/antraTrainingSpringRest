@@ -99,6 +99,10 @@ public class ClassUnit {
         }
     }
 
+    public List<StudentClassIntermediate> getIntermediates(){
+        return intermediates;
+    }
+
     public ClassUnit() {
     }
 

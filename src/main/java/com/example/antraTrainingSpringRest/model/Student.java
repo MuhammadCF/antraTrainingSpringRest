@@ -122,6 +122,10 @@ public class Student {
         this.email = email;
     }
 
+    public List<StudentClassIntermediate> getIntermediates(){
+        return intermediates;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
